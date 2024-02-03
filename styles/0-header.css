@@ -1,0 +1,115 @@
+/* mobile */
+@media (max-width: 719px) {
+}
+
+/* tablet */
+@media (min-width: 720px) and (max-width: 1024px) {
+}
+
+/* desktop */
+@media (min-width: 1025px) {
+	.container {
+		width: 1200px;
+		padding: 0 40px;
+	}
+
+	.header {
+		box-sizing: border-box;
+		width: 1220px;
+		height: 48px;
+		display: flex;
+	}
+
+	.header__logo {
+		display: flex;
+		align-items: center;
+		padding: 11px 11px 11px 0;
+	}
+
+	.header__logo:hover img {
+		content: url(../images/logitechg.svg);
+	}
+
+	.header__logo-cover {
+		padding-right: 17px;
+		border-right: 1px solid #b3b3b3;
+	}
+
+	.header__brand-list {
+		position: relative;
+		display: flex;
+		align-items: center;
+	}
+
+	.header__brand-list-label {
+		padding: 11px 0;
+		cursor: pointer;
+	}
+
+	.header__brand-list-label::after {
+		display: inline-block;
+		content: "";
+		margin-left: 17px;
+		height: 5px;
+		width: 5px;
+		border-left: 2px solid var(--font-color);
+		border-bottom: 2px solid var(--font-color);
+		transform: rotate(-45deg);
+		vertical-align: 3px;
+	}
+
+	#our-brand:checked + .header__brand-list-label::after {
+		transform: rotate(135deg) translateY(-1px);
+	}
+
+	#our-brand:checked ~ .header__brand-list-popup {
+		display: inline-block;
+	}
+
+	.header__brand-list-popup {
+		display: none;
+		width: 100px;
+		position: absolute;
+		top: 48px;
+		background-color: white;
+		text-align: center;
+	}
+
+	.header__brand-list-popup > li {
+		padding: 11px;
+	}
+
+	.header__brand-list-popup > li:nth-child(1):hover .header__brand--streamlabs {
+		content: url(../images/streamlabs.svg);
+	}
+	.header__brand-list-popup
+		> li:nth-child(2):hover
+		.header__brand--ultimate-ears {
+		content: url(../images/ultimate-ears.svg);
+	}
+	.header__brand-list-popup > li:nth-child(3):hover .header__brand--jaybird {
+		content: url(../images/jaybird.svg);
+	}
+
+	.header__brand-list-popup > li:not(:last-child) {
+		border-bottom: 1px solid var(--border-color);
+	}
+
+	.header__between-space {
+		flex-grow: 1;
+	}
+
+	.header__locale {
+		display: flex;
+		align-items: center;
+		margin-right: 20px;
+	}
+
+	.header__locale-link {
+		font-weight: 800;
+	}
+
+	.header__locale-link:hover > span:last-child {
+		text-decoration: underline;
+	}
+}

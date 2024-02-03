@@ -1,0 +1,53 @@
+@font-face {
+	font-family: noto-sans;
+	src: url(../fonts/Noto_Sans_KR/static/NotoSansKR-Thin.ttf);
+	font-weight: 100;
+}
+
+@font-face {
+	font-family: noto-sans;
+	src: url(../fonts/Noto_Sans_KR/static/NotoSansKR-ExtraLight.ttf);
+	font-weight: 200;
+}
+
+@font-face {
+	font-family: noto-sans;
+	src: url(../fonts/Noto_Sans_KR/static/NotoSansKR-Light.ttf);
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: noto-sans;
+	src: url(../fonts/Noto_Sans_KR/static/NotoSansKR-Regular.ttf);
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: noto-sans;
+	src: url(../fonts/Noto_Sans_KR/static/NotoSansKR-Medium.ttf);
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: noto-sans;
+	src: url(../fonts/Noto_Sans_KR/static/NotoSansKR-SemiBold.ttf);
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: noto-sans;
+	src: url(../fonts/Noto_Sans_KR/static/NotoSansKR-Bold.ttf);
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: noto-sans;
+	src: url(../fonts/Noto_Sans_KR/static/NotoSansKR-ExtraBold.ttf);
+	font-weight: 800;
+}
+
+@font-face {
+	font-family: noto-sans;
+	src: url(../fonts/Noto_Sans_KR/static/NotoSansKR-Black.ttf);
+	font-weight: 900;
+}

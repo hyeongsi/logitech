@@ -1,0 +1,28 @@
+.intro {
+	height: 75vh;
+	background-size: cover;
+}
+
+/* mobile */
+@media (max-width: 719px) {
+	.intro {
+		background-image: url(../images/ergo-series--hpb-mobile.webp);
+		background-position: center;
+	}
+}
+
+/* tablet */
+@media (min-width: 720px) and (max-width: 1024px) {
+	.intro {
+		background-image: url(../images/ergo-series-hpb-tablet.webp);
+		background-position: center;
+	}
+}
+
+/* desktop */
+@media (min-width: 1025px) {
+	.intro {
+		background-image: url(../images/ergo-series-hpb-desktop.webp);
+		background-position: right;
+	}
+}

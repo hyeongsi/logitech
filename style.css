@@ -1,0 +1,58 @@
+@import url(styles/0-header.css);
+@import url(styles/1-intro.css);
+@import url(styles/99-font.css);
+
+:root {
+	--font-color: #697172;
+	--border-color: #f4f4f4;
+}
+
+* {
+	font-family: "noto-sans", "sans-serif";
+	font-size: 14px;
+	color: var(--font-color);
+}
+
+body {
+	margin: 0;
+	min-height: 150vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: normal;
+	margin: 0;
+}
+
+button {
+	background: inherit;
+	cursor: pointer;
+	border: none;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul,
+li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+input[type="checkbox"] {
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+
+.container {
+	margin: 0 auto;
+}
