@@ -1,5 +1,6 @@
 @import url(styles/0-header.css);
 @import url(styles/1-intro.css);
+@import url(styles/2-feature.css);
 @import url(styles/99-font.css);
 
 :root {
