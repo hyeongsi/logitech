@@ -11,6 +11,41 @@
 	height: 90px;
 }
 
+.intro__header > .container {
+	height: 100%;
+}
+
+.intro__header--flex {
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.intro__header--item {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	color: var(--content-font-color);
+	font-weight: 800;
+	font-size: 15px;
+}
+
+.intro__header--item-ul {
+	display: flex;
+	text-align: center;
+}
+
+.intro__header--menu > li:hover {
+	border-radius: 18px;
+	background-color: white;
+}
+
+.intro__header--item-ul > li {
+	padding: 9px 20px;
+}
+
 .intro__content--container-left {
 	flex: 0.48;
 	width: calc(50%-20px);
