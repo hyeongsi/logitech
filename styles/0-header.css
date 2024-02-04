@@ -12,10 +12,6 @@
 
 /* desktop */
 @media (min-width: 1025px) {
-	.container {
-		padding: 0 40px;
-	}
-
 	.header {
 		box-sizing: border-box;
 		height: 48px;
