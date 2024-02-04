@@ -1,13 +1,78 @@
 .intro {
 	height: 75vh;
 	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	background-position: center;
+}
+
+.intro__header {
+	height: 90px;
+}
+
+.intro__content--container-left {
+	flex: 0.48;
+	width: calc(50%-20px);
+}
+
+.intro__content--container {
+	padding: 100px 40px;
+	height: 70%;
+	display: flex;
+	color: var(--content-font-color);
+}
+
+.intro__content--title {
+	font-weight: 700;
+	font-size: 70px;
+	letter-spacing: -1px;
+	line-height: 70px;
+	margin-bottom: 27px;
+}
+
+.intro__content--text {
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 1.4em;
+	margin-bottom: 30px;
+}
+
+.intro__content--link-btn {
+	background-color: var(--content-font-color);
+	color: white;
+	padding: 18px 36px;
+	font-weight: 700;
+	outline: 2px solid var(--content-font-color);
+	transition: all 0.2s;
+}
+
+.intro__content--link-btn:hover {
+	background-color: inherit;
+	color: var(--content-font-color);
 }
 
 /* mobile */
 @media (max-width: 719px) {
 	.intro {
 		background-image: url(../images/ergo-series--hpb-mobile.webp);
-		background-position: center;
+	}
+
+	.intro__content--container-left {
+		width: calc(100%);
+	}
+
+	.intro__content--title {
+		font-size: 40px;
+		line-height: 40px;
+	}
+
+	.intro__content--text {
+		font-size: 12px;
+	}
+
+	.intro__content--link-btn {
+		box-sizing: content-box;
+		height: 16px;
 	}
 }
 
@@ -15,7 +80,38 @@
 @media (min-width: 720px) and (max-width: 1024px) {
 	.intro {
 		background-image: url(../images/ergo-series-hpb-tablet.webp);
-		background-position: center;
+	}
+
+	.intro__content--title {
+		font-size: 60px;
+		line-height: 60px;
+	}
+
+	.intro__content--text {
+		font-size: 16px;
+	}
+
+	.intro__content--container-left {
+		width: calc(100% - 24px);
+	}
+}
+
+@media (max-width: 1024px) {
+	.intro {
+		height: 75vh;
+	}
+
+	.intro__content--container {
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		text-align: center;
+		padding: 0 0 90px 0;
+	}
+
+	.intro__content--title {
+		box-sizing: content-box;
+		max-width: 600px;
 	}
 }
 
@@ -23,6 +119,5 @@
 @media (min-width: 1025px) {
 	.intro {
 		background-image: url(../images/ergo-series-hpb-desktop.webp);
-		background-position: right;
 	}
 }

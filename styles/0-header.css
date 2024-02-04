@@ -1,3 +1,7 @@
+.header {
+	display: none;
+}
+
 /* mobile */
 @media (max-width: 719px) {
 }
@@ -9,13 +13,11 @@
 /* desktop */
 @media (min-width: 1025px) {
 	.container {
-		width: 1200px;
 		padding: 0 40px;
 	}
 
 	.header {
 		box-sizing: border-box;
-		width: 1220px;
 		height: 48px;
 		display: flex;
 	}
@@ -52,8 +54,8 @@
 		margin-left: 17px;
 		height: 5px;
 		width: 5px;
-		border-left: 2px solid var(--font-color);
-		border-bottom: 2px solid var(--font-color);
+		border-left: 2px solid var(--header-font-color);
+		border-bottom: 2px solid var(--header-font-color);
 		transform: rotate(-45deg);
 		vertical-align: 3px;
 	}

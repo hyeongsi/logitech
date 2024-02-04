@@ -3,8 +3,9 @@
 @import url(styles/99-font.css);
 
 :root {
-	--font-color: #697172;
+	--header-font-color: #697172;
 	--border-color: #f4f4f4;
+	--content-font-color: #2f3132;
 }
 
 * {
@@ -23,14 +24,15 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-	font-size: inherit;
+h6,
+p {
+	font-size: unset;
 	font-weight: normal;
 	margin: 0;
 }
 
 button {
-	background: inherit;
+	background: unset;
 	cursor: pointer;
 	border: none;
 	padding: 0;
@@ -55,4 +57,5 @@ input[type="checkbox"] {
 
 .container {
 	margin: 0 auto;
+	max-width: 1280px;
 }
