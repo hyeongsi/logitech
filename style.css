@@ -8,6 +8,9 @@
 	--header-font-color: #697172;
 	--border-color: #f4f4f4;
 	--content-font-color: #2f3132;
+
+	--desktop-product-height: 675px;
+	--arrow-size: 50px;
 }
 
 * {
