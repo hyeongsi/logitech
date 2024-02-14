@@ -2,12 +2,15 @@
 @import url(styles/1-intro.css);
 @import url(styles/2-feature.css);
 @import url(styles/3-product.css);
+@import url(styles/5-footer.css);
 @import url(styles/99-font.css);
 
 :root {
 	--header-font-color: #697172;
 	--border-color: #f4f4f4;
 	--content-font-color: #2f3132;
+	--footer-background-color: #252a2c;
+	--footer-content-color: #c3c6c8;
 
 	--desktop-product-height: 675px;
 	--arrow-size: 50px;
@@ -45,6 +48,10 @@ button {
 
 a {
 	text-decoration: none;
+}
+
+b {
+	text-decoration: underline;
 }
 
 ul,
